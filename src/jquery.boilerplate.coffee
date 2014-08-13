@@ -14,8 +14,6 @@ do ($ = jQuery, window, document) ->
 		maxHeight: 960
 		maxWidth: 1000
 		heightGap: 40
-		ratio: 16/9
-		paddingDirection: 'top'
 
 	# The actual plugin constructor
 	class Plugin
