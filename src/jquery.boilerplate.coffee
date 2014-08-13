@@ -54,6 +54,7 @@ do ($ = jQuery, window, document) ->
 
 			#Then we make sure the height will be within range at the maximum window width
 			heightAtMax = @settings.maxWidth * windowToHeightRatio
+			console.log heightAtMax
 			return false unless @testHeight(heightAtMax)
 
 			#Final Result

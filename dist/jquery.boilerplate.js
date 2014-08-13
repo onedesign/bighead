@@ -1,9 +1,9 @@
 /*
- *  jQuery Boilerplate - v3.3.4
- *  A jump-start for jQuery plugins development.
- *  http://jqueryboilerplate.com
+ *  jQuery BigHead - v1.0.0
+ *  A jQuery plugin for better big headers.
+ *  https://github.com/onedesign/bighead
  *
- *  Made by Zeno Rocha
+ *  Made by Brian Hanson
  *  Under MIT License
  */
 (function() {
@@ -16,9 +16,7 @@
       minHeight: 300,
       maxHeight: 960,
       maxWidth: 1000,
-      heightGap: 40,
-      ratio: 16 / 9,
-      paddingDirection: 'top'
+      heightGap: 40
     };
     Plugin = (function() {
       function Plugin(element, options) {
@@ -54,6 +52,7 @@
           return false;
         }
         heightAtMax = this.settings.maxWidth * windowToHeightRatio;
+        console.log(heightAtMax);
         if (!this.testHeight(heightAtMax)) {
           return false;
         }

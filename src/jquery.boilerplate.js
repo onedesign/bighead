@@ -8,9 +8,7 @@
       minHeight: 300,
       maxHeight: 960,
       maxWidth: 1000,
-      heightGap: 40,
-      ratio: 16 / 9,
-      paddingDirection: 'top'
+      heightGap: 40
     };
     Plugin = (function() {
       function Plugin(element, options) {
@@ -46,6 +44,7 @@
           return false;
         }
         heightAtMax = this.settings.maxWidth * windowToHeightRatio;
+        console.log(heightAtMax);
         if (!this.testHeight(heightAtMax)) {
           return false;
         }
