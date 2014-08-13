@@ -1,0 +1,25 @@
+.big-head {
+  background-color: #908ffd;
+  padding-bottom: 56.5%;
+  position: relative;
+}
+
+.big-head__content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 5%;
+  color: #fff;
+}
+
+.row {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 8%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
