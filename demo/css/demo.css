@@ -1,7 +1,26 @@
+html, body {
+  background-color: #e8e8e8;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.site-wrap {
+  max-width: 1600px;
+  margin: auto;
+  background-color: #fff;
+}
+
 .big-head {
   background-color: #908ffd;
   padding-bottom: 56.5%;
   position: relative;
+  overflow: hidden;
 }
 
 .big-head__content {
@@ -11,10 +30,17 @@
   bottom: 0;
   padding-bottom: 5%;
   color: #fff;
+  z-index: 10;
+}
+
+.big-head__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .2;
 }
 
 .row {
-  max-width: 1000px;
   margin: auto;
   padding: 0 8%;
 }
@@ -22,4 +48,17 @@
 h1 {
   margin: 0;
   font-size: 3rem;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
 }
