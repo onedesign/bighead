@@ -1,0 +1,43 @@
+{
+	"name": "bighead",
+	"title": "jQuery BigHead",
+	"description": "A jQuery plugin for better big headers.",
+	"keywords": [
+		"jquery",
+		"header",
+		"resize",
+		"fullscreen",
+		"responsive"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Brian Hanson",
+		"email": "brian@onedesigncompany.com",
+		"url": "https://github.com/brianjhanson"
+	},
+	"maintainers": [
+		{
+			"name": "Brian Hanson",
+			"email": "brian@onedesigncompany.com",
+			"url": "https://github.com/brianjhanson"
+		},
+		{
+			"name": "Chris Malven",
+			"email": "chris@desktimeapp.com",
+			"url": "https://github.com/cmalven"
+		},
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://zenorocha.mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/onedesign/bighead/issues",
+	"homepage": "https://github.com/onedesign/bighead",
+	"docs": "https://github.com/onedesign/bighead#readme",
+	"download": "https://github.com/onedesign/bighead/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

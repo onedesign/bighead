@@ -1,11 +1,12 @@
 {
-	"name": "jquery-boilerplate",
-	"version": "3.3.4",
-	"homepage": "http://jqueryboilerplate.com",
+	"name": "jquery-bighead",
+	"version": "1.0.0",
+	"homepage": "https://github.com/onedesign/bighead",
 	"authors": [
-		"Zeno Rocha <hi@zenorocha.com>"
+		"Brian Hanson <brian@onedesigncompany.com>",
+		"Chris Malven <chris@desktimeapp.com>"
 	],
-	"description": "A jump-start for jQuery plugins development.",
+	"description": "A jquery plugin for better big headers.",
 	"main": "src/jquery.boilerplate.js",
 	"keywords": [
 		"jquery",
