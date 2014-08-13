@@ -6,7 +6,7 @@
     pluginName = "bigHead";
     defaults = {
       minHeight: 300,
-      maxHeight: 960,
+      maxHeight: 550,
       maxWidth: 1000,
       heightGap: 40
     };
@@ -44,7 +44,6 @@
           return false;
         }
         heightAtMax = this.settings.maxWidth * windowToHeightRatio;
-        console.log(heightAtMax);
         if (!this.testHeight(heightAtMax)) {
           return false;
         }

@@ -11,7 +11,7 @@ do ($ = jQuery, window, document) ->
 	pluginName = "bigHead"
 	defaults =
 		minHeight: 300
-		maxHeight: 960
+		maxHeight: 550
 		maxWidth: 1000
 		heightGap: 40
 
@@ -54,7 +54,6 @@ do ($ = jQuery, window, document) ->
 
 			#Then we make sure the height will be within range at the maximum window width
 			heightAtMax = @settings.maxWidth * windowToHeightRatio
-			console.log heightAtMax
 			return false unless @testHeight(heightAtMax)
 
 			#Final Result
